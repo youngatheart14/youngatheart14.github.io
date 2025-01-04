@@ -1,0 +1,249 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>MSC2006H - Alex Young</title>
+	
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		body{ 
+			font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		}
+		header{
+			background-color: #363636;
+			padding: 30px;
+			text-align: center;
+			color: white
+			
+		}
+		nav{
+			padding: 30px;
+			text-align: center;
+		}
+		article{
+			padding: 0px 10%;
+		}
+		.top{
+			padding: 50px;
+			text-align: center
+		}
+		footer{
+			background-color: #363636;
+			padding: 10px;
+			text-align: center;
+			color: white;
+		}
+		button{
+			 background-color: white;
+			 border: 2px solid #FF9300;
+			 color: black;
+			 padding: 15px 40px;
+			 text-align: center;
+			 font-size: 20px;
+			 margin: 4px;
+			 cursor: pointer;
+		}
+		.button:hover{
+			background-color: #FF9300;
+			color: white;
+			border: 2px solid #FF9300;transition: 0.5s;
+		}
+		.accordian{
+			background-color: #E6E6E6;
+			border: none;
+			color: black;
+			padding: 15px 30px;
+			width: 100%;
+			text-align: left;
+			font-size: 18px;
+			margin: 0px;
+			cursor: pointer;
+			transition: 0.5s;
+		}
+		.active, .accordian:hover{
+			background-color: #A4A4A4;
+		}
+		.panel{
+			padding: 10px 30px;
+			border: 2px solid lightgray;
+			display: none;
+			overflow: hidden;
+		}
+		.center{
+			display: block;
+			width: 40%;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 10px;
+		}
+		
+	</style>
+</head>
+
+<body>
+	<a name="top"></a>
+	
+	<header>
+		<h1 id="MyFirstHeading">MSC2006 Course Website 2019</h1>
+		<h3>Welcome to Alex's course webpage</h3>
+	</header>
+	
+	<nav> 
+		<a href="index.html"><button class="button">Class Log</button></a>
+		<a href="pages/mrp-schedule.html"><button class="button">MRP Schedule</button></a>
+		<a href="pages/jawbone3D-reflections.html"><button class="button">Jawbone3D Blog</button></a>
+		<a href="https://www.alexyoungdesign.com/"><button class="button">Personal Website</button></a>
+	</nav>
+	
+	<article>
+		<h2>Class Log</h2>
+		
+		<button class="accordian"><strong>Class 1:</strong> January 10, 2019</button>
+		<div class="panel">
+			<p>In class today, Michael did impressions of different scripting languages. We also did the following:</p>
+			<ul>
+				<li>Started learning the basics of coding, inclduing how to get a simple version of this nifty little site</li>
+				<li>Coverd the difference between web browsers and the world wide web, in addition to the difference and integration of server based and client based computing</li>
+				<li>Learned how to link to additional pages within this site. Proof is provided on this <a href="pages/testpage.html">external page link</a></li>
+				<li>Coded our first bit of JavaScript. Need proof? Try clicking on the title of the webpage!</li>
+				<li>Began a conversation regarding what interactive technologies are needed for our MRPs, and around how important it is to get started learning them</li>
+			</ul>
+			<p>For next week, we need to complete the following:</p>
+			<ul>
+				<li>The worksheet for Media Lab 1</li>
+				<li>Flesh out our course site, and include a link to a detailed MRP timeline and schedule. This schedule can now be seen <a href="mrp-schedule.html">here</a>, or by clickning on the "MRP Schedule" above</li>
+			</ul>
+		</div>
+		
+		<button class="accordian"><strong>Class 2:</strong> January 17, 2019</button>
+		<div class="panel">
+			<p>In class today, we went over an intro to accessible design, with a focus on visually accessible design for the web. Three main take aways were:</p>
+			<ul>
+				<li>Disabilities vary, and their severity ranges across a spectrum. Designers should keep this in mind, ensuring spaces/objects/applications address the needs of many users</li>
+				<li>There are a variety of tools and resources online, both for learning about how to design with accessibility in mind, and to assess if you web applications meet certain accessibility requirements</li>
+				<li>The four principles of accessible design (perceptibility, operability, simplicity, and forgiveness) provide a solid basis for creating spaces/objects/applications that meet the needs of many, not just a few. Aside from ensuring designs are accessible, they also help ensure your design is fundamentally better</li>
+			</ul>
+			<p>For next week, we need to complete the following:</p>
+			<ul>
+				<li>The worksheet for Media Lab 2</li>
+			</ul>
+		</div>
+		
+		<button class="accordian"><strong>Class 3:</strong> January 24, 2019</button>
+		<div class="panel">
+		<p>In class today, we reviewed the structure of html pages and the principles of accessible design. In addition, we broke into groups for our larger interactive assignment, which focuses on the creation of an app that works in Unity and utilizes AR and 3D printed elements. The group I'm part of consists of Shawn, Bernadete, Julia, and myself. More details about our project to come!
+			</p>
+		<p>For next week, we need to complete the following:</p>
+		<ul>
+			<li>Project descriptipon and timeline for our interactive group assignment</li>
+		</ul>
+		</div>
+		
+		<button class="accordian"><strong>Class 4:</strong> January 31, 2019</button>
+		<div class="panel">
+			<p>In class today, we went over the linear story-telling process, focusing on the process of effective story-boarding. Three main take aways were:</p>
+			<ul>
+				<li>How important having a comprehensive written script is early in the pre-production stages. I knew that scripts were often written early on; however, I didn’t completely realize they needed to include such detailed information regarding camera shots, descriptions of the environment, character movements, etc. The amount of “visualization” that happens in a written, script-bases sense before any storyboarding panels are even written was surprising to me</li>
+				<li>How much contextual information is necessary and useful in storyboarding panels. I had assumed that most storyboards were simply examples of hand drawn “stills” from the movie, and that any contextual information involving camera movements, dialogue, or emotions/expressions was either written as accompanying text, left separate in the script, and verbally communicated during pitches. However, I now know how much information about everything happening within a shot is shown in a series of storyboarding panels, and even individual panels</li>
+				<li>That seemingly simple, short scenes still warrant proper explanations via storyboarding panels, which may mean multiple panels and/or additional contextual information. A five second scene may need five panels if the action taking place warrants the additional clarity</li>
+			</ul>
+			<p>For next week, we need to complete the following:</p>
+			<ul>
+				<li>The worksheet for Media Lab 4</li>
+				<li>The Previsualization Documents for our group assignment</li>
+			</ul>
+		</div>
+		
+		<button class="accordian"><strong>Class 5:</strong> February 7, 2019</button>
+		<div class="panel">
+			<p>Stay tuned to see what we'll cover this week.
+			</p>
+		</div>
+		
+		<button class="accordian"><strong>Class 6:</strong> February 14, 2019</button>
+		<div class="panel">
+			<p>This week wasn't the most exicitng week class wise, as it was actually a snow day. Nonetheless, our group kept trucking along with our interactive project, and we also setup a meeting with Michael over Skype to report on our progress. Next week is Reading Week, so there will be no update until February 28. Check back then to see what I'm up too!
+			</p>
+		</div>
+		
+		<button class="accordian"><strong>Class 7:</strong> February 28, 2019</button>
+		<div class="panel">
+			<p>In class today, we had a joint liner media and non-linear media workshop covering the basics of sound design. Aside from how nice it was to have a nearly combined class again, the three main take aways from the workshop were:</p>
+			<ul>
+				<li>How much proper and thought out sound design can improve animated media. The added life and feeling that sound effects, atmospheric sound, and in some cases, music, can add to a scene are very pronounced. Even the most beautiful animation can fall flat if the sound design isn't considered</li>
+				<li>The forethought that needs to go into setting up a quality narration session. Aside from the person you choose as narrator, which in itself is a major factor, careful consideration needs to be given when setting up the recording space, how you communicate with the narrator/voice actor, and how you arrange the materials you give them for reference and reading</li>
+				<li>That quality sound effects don't need to be elaborate or expensive. Often times, we can record sounds from our day to day lives, from experimenting with tools and resources we have, or from free online libraries. These sound effects can be just as effective for our purposes, with far less hassle and associated costs</li>
+			</ul>
+			<p>For next week, we need to complete the following:</p>
+			<ul>
+				<li>Media Lab, which is a video sample that can be seen below:</li>
+			</ul>
+			
+			<video width="100" controls class="center">
+				<source src="videos/AY-Soundworkshop-2019.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+			
+			<p>Stay tuned to see what we cover next week during our group project presentations!</p>
+			
+		</div>
+		
+		<button class="accordian"><strong>Class 8:</strong> March 7, 2019</button>
+		<div class="panel">
+			<p>Stay tuned to see what we'll cover this week.
+			</p>
+		</div>
+		
+		<button class="accordian"><strong>Class 9:</strong> March 14, 2019</button>
+		<div class="panel">
+			<p>Stay tuned to see what we'll cover this week.
+			</p>
+		</div>
+		
+		<button class="accordian"><strong>Class 10:</strong> March 21, 2019</button>
+		<div class="panel">
+			<p>Stay tuned to see what we'll cover this week.
+			</p>
+		</div>
+		
+		<button class="accordian"><strong>Class 11:</strong> March 28, 2019</button>
+		<div class="panel">
+			<p>Stay tuned to see what we'll cover this week.
+			</p>
+		</div>
+		
+	</article>
+	
+	<div class="top"><a href="#top"><button class="button">Back to top</button></a></div>
+	
+	<footer>
+		<h5>Made by Alexander Young using Dreamweaver and help from the internet. All rights reserved 2019.</h5>
+	</footer>
+	
+	<script language="javascript">
+		
+		var MyHeading = document.getElementById("MyFirstHeading");
+		MyHeading.addEventListener("click", MyHeadingWasClicked);
+		function MyHeadingWasClicked(e) {alert("Stop don't touch me there, this is my no no square")};
+	
+		var acc = document.getElementsByClassName("accordian");
+		var i;
+		
+		for (i = 0; i < acc.length; i++) {
+				acc[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				var panel = this.nextElementSibling;
+				if (panel.style.display === "block") {
+					panel.style.display = "none";
+					} else {
+					panel.style.display = "block";
+					}
+					});
+			}
+		
+	</script>
+	
+</body>
+</html>
